@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - Survive Endless Waves of Monsters | FunGames.wiki</title>
+    <meta name="description" content="Play Monster Survivors online for free! Fight against endless waves of monsters in this exciting survival game. Test your skills and see how long you can last!">
+    <meta name="keywords" content="Monster Survivors, online game, survival game, monster game, free games">
+    <link rel="canonical" href="https://fungames.wiki/monster-survivors">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            light: '#f5f5f7',
+                            dark: '#333336',
+                            blue: '#0071e3',
+                            gray: '#86868b',
+                            darkgray: '#1d1d1f'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style type="text/tailwind">
+        @layer base {
+            body {
+                @apply bg-apple-light text-apple-darkgray font-sans;
+            }
+            h1 {
+                @apply text-4xl md:text-5xl font-bold mb-4 text-apple-darkgray;
+            }
+            h2 {
+                @apply text-2xl md:text-3xl font-semibold my-4 text-apple-darkgray;
+            }
+            p {
+                @apply mb-4 text-base md:text-lg;
+            }
+            .container {
+                @apply max-w-6xl mx-auto px-4 py-8;
+            }
+            .game-container {
+                @apply w-full relative overflow-hidden bg-white rounded-xl shadow-lg;
+            }
+            .btn {
+                @apply bg-apple-blue text-white px-5 py-2 rounded-full hover:opacity-90 transition-all;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-white shadow-sm">
+        <div class="container py-4 flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold text-apple-darkgray">FunGames.wiki</a>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="/" class="hover:text-apple-blue transition-colors">Home</a></li>
+                    <li><a href="#about" class="hover:text-apple-blue transition-colors">About</a></li>
+                    <li><a href="#more-games" class="hover:text-apple-blue transition-colors">More Games</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="text-center py-8">
+            <h1>Monster Survivors</h1>
+            <p class="text-xl md:text-2xl text-apple-gray mb-8">Survive endless waves of monsters in this thrilling action-packed adventure!</p>
+        </section>
+
+        <section class="game-container aspect-[16/9] mb-10">
+            <!-- Game iframe -->
+            <iframe 
+                src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                class="w-full h-full border-0"
+                title="Monster Survivors Game"
+                allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                loading="lazy">
+            </iframe>
+        </section>
+
+        <section class="my-10" id="about">
+            <h2>About Monster Survivors</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <p>
+                        Monster Survivors is an intense survival game where you face endless waves of increasingly difficult monsters. Your objective is simple: survive as long as possible while defeating enemies and collecting power-ups.
+                    </p>
+                    <p>
+                        As you progress through the game, you'll unlock new abilities, weapons, and characters to help you combat the growing monster threat. Each run is unique, offering a different experience every time you play.
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        With its addictive gameplay and simple controls, Monster Survivors is easy to learn but difficult to master. How long can you survive? Challenge yourself and try to beat your high score!
+                    </p>
+                    <p>
+                        Play for free directly in your browser - no downloads or installations required. Compatible with both desktop and mobile devices.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-10">
+            <h2>How to Play</h2>
+            <div class="bg-white p-6 rounded-xl shadow-sm">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <div class="text-4xl mb-2 text-apple-blue">1</div>
+                        <h3 class="text-xl font-semibold mb-2">Move Your Character</h3>
+                        <p>Use WASD or arrow keys to navigate around the map and avoid incoming monsters.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl mb-2 text-apple-blue">2</div>
+                        <h3 class="text-xl font-semibold mb-2">Attack Enemies</h3>
+                        <p>Your character attacks automatically. Position yourself strategically to maximize damage.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl mb-2 text-apple-blue">3</div>
+                        <h3 class="text-xl font-semibold mb-2">Collect Power-ups</h3>
+                        <p>Defeat monsters to collect experience and power-ups that make you stronger.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-10" id="more-games">
+            <h2>More Games You Might Enjoy</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <div class="aspect-video bg-gray-200"></div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Zombie Defense</h3>
+                        <p class="text-sm text-apple-gray">Defend your base against zombie hordes</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <div class="aspect-video bg-gray-200"></div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Space Explorer</h3>
+                        <p class="text-sm text-apple-gray">Explore the universe in this space adventure</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <div class="aspect-video bg-gray-200"></div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Treasure Hunter</h3>
+                        <p class="text-sm text-apple-gray">Find hidden treasures across ancient ruins</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-apple-darkgray text-white mt-10">
+        <div class="container py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h2 class="text-2xl font-bold mb-4 text-white">FunGames.wiki</h2>
+                    <p class="text-apple-gray">Your destination for free online games. Play the best browser games without downloading.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Categories</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-apple-gray hover:text-white transition-colors">Action Games</a></li>
+                        <li><a href="#" class="text-apple-gray hover:text-white transition-colors">Adventure Games</a></li>
+                        <li><a href="#" class="text-apple-gray hover:text-white transition-colors">Puzzle Games</a></li>
+                        <li><a href="#" class="text-apple-gray hover:text-white transition-colors">Strategy Games</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Contact</h3>
+                    <p class="text-apple-gray">Have questions or feedback? Reach out to us!</p>
+                    <a href="mailto:contact@fungames.wiki" class="text-apple-blue hover:underline">contact@fungames.wiki</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-apple-gray">
+                <p>&copy; 2025 FunGames.wiki. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
